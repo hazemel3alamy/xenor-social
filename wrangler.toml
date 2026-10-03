@@ -5,7 +5,7 @@ compatibility_date = "2026-10-03"
 [[d1_databases]]
 binding = "DB"
 database_name = "xenor-social"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "5f1f215c-cbcb-42aa-b9f6-06d3706fc83e"
 
 # Optional R2 media storage:
 # [[r2_buckets]]
