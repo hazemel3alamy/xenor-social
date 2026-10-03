@@ -1,28 +1,4 @@
-# XENOR Social Hub — Cloudflare Pages
-
-نسخة واجهة XENOR مطورة لتشمل تجربة اجتماعية شبيهة بتطبيقات التواصل، مع هوية XENOR الخاصة.
-
-## المزايا الموجودة في هذه النسخة
-- Feed / منشورات
-- إنشاء منشور
-- إعجاب وتعليق ومشاركة
-- Stories محلية
-- Reels من روابط الوسائط
-- Profile
-- Market / Academy / Services
-- بلاغات منشورات
-- لوحة Admin تجريبية
-- إدارة الخدمات والطلبات والمنشورات وروابط السوشيال
-- PWA manifest
-
-## مهم
-هذه النسخة Frontend تجريبية وتخزن البيانات في `localStorage`. ليست Backend إنتاجيًا ولا توفر مصادقة أو رسائل حقيقية بين أجهزة مختلفة.
-
-## النشر
-ارفع الملفات إلى GitHub ثم اربط المستودع بـ Cloudflare Pages، أو ارفع مجلد المشروع مباشرة إذا كان خيار Direct Upload متاحًا.
-
-بيانات دخول الإدارة التجريبية:
-- username: `admin`
-- password: `XENOR2026`
-
-غيّرها عند ربط Backend حقيقي.
+XENOR Social Hub - PWA static build for Cloudflare Pages.
+Files: index.html, style.css, app.js, manifest.json, sw.js, icon.svg.
+No Android, backend, Gradle, or wrangler.toml files.
+Admin demo: admin / XENOR2026. This is local/demo authentication only.

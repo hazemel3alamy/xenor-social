@@ -1,13 +1,1 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f4c400"><link rel="manifest" href="manifest.json">
-<title>XENOR — Digital Social Hub</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header><button class="backBtn" onclick="goBack()" aria-label="رجوع">← رجوع</button><a class="logo" href="#home">X<span>ENOR</span></a><nav><a href="#home">الرئيسية</a><a href="#feed">المجتمع</a><a href="#reels">Reels</a><a href="#market">Market</a><a href="#academy">Academy</a><a href="#admin">الإدارة</a></nav></header>
-<main id="app"></main>
-<footer><b>XENOR</b><span id="social"></span><small>© <span id="year"></span> XENOR</small></footer>
-<script src="app.js"></script>
-</body></html>
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111"><meta name="description" content="XENOR Social Hub"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="stylesheet" href="style.css"><title>XENOR</title></head><body><header><a class="brand" href="#home">XENOR</a><button id="install" hidden>تثبيت التطبيق</button></header><main><section id="home"><div class="hero"><div class="logo">X</div><h1>XENOR</h1><p>منصة XENOR الاجتماعية</p><a class="btn primary" href="#feed">دخول المنصة</a><a class="btn" href="#admin">الإدارة</a></div></section><section id="feed" hidden><div class="head"><h2>المنشورات</h2><button id="new" class="btn">منشور جديد</button></div><div id="form" class="card" hidden><textarea id="text" placeholder="اكتب منشورك..."></textarea><button id="publish" class="btn primary">نشر</button></div><div id="posts"></div></section><section id="admin" hidden><div class="card"><h2>دخول الإدارة</h2><input id="user" placeholder="اسم المستخدم"><input id="pass" type="password" placeholder="كلمة المرور"><button id="login" class="btn primary">دخول</button><p id="msg"></p><div id="panel" hidden><h3>لوحة الإدارة</h3><div class="stats"><div><b id="count">0</b><span>منشورات</span></div><div><b>0</b><span>طلبات</span></div><div><b>0</b><span>بلاغات</span></div></div><button id="logout" class="btn">تسجيل الخروج</button></div></div></section></main><nav><a href="#home">الرئيسية</a><a href="#feed">المنشورات</a><a href="#admin">الإدارة</a></nav><footer>© 2026 XENOR</footer><script src="app.js"></script></body></html>
