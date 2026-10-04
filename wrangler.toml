@@ -5,11 +5,4 @@ compatibility_date = "2026-10-04"
 [[d1_databases]]
 binding = "DB"
 database_name = "xenor-social"
-database_id = "PUT_DATABASE_ID_HERE"
-
-# R2 media storage
-# Uncomment after creating the bucket:
-#
-# [[r2_buckets]]
-# binding = "MEDIA"
-# bucket_name = "xenor-media"
+database_id = "5f1f215c-cbcb-42aa-b9f6-06d3706fc83e"
